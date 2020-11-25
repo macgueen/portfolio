@@ -11,6 +11,7 @@ const navbar = document.querySelector('.navbar');
 const menuToggler = document.querySelector('.menu-toggler')
 const navbarMenu = document.querySelector('.navbar-menu')
 const navbarButtons = document.querySelectorAll('.navbar-button')
+const loading = document.querySelector('.loading')
 
 let headerHeight = header.offsetHeight;
 let sectionHeight = section.offsetHeight;
@@ -27,6 +28,9 @@ menuToggler.addEventListener('click', function(){
     this.classList.toggle('active')
     navbarMenu.classList.toggle('active')
 
+})
+window.addEventListener('load', function(){
+    loading.parentElement.removeChild(loading)
 })
 
 
