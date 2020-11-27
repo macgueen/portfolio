@@ -624,7 +624,7 @@ footer .sm a {
   color: #fff;
 }
 .email-area {
-  width: 50%;
+  width: calc(80% - 40px);
   margin: auto;
   justify-content: center;
   align-items: center;
@@ -642,7 +642,7 @@ footer .sm a {
   margin-bottom: 20px;
 }
 .email-area h4 {
-  font-size: 25px;
+  font-size: 26px;
 }
 
 @media (max-width: 980px) {
@@ -718,6 +718,15 @@ footer .sm a {
   #contact .container {
     width: 85%;
   }
+  .email-area {
+    width: calc(100% - 40px);
+  }
+  .email-area h4 {
+    font-size: 23px;
+  }
+  .email-area i {
+    font-size: 35px;
+  }
 }
 @media (max-width: 600px) {
   .service {
@@ -739,5 +748,14 @@ footer .sm a {
     font-size: 2rem;
     line-height: 3rem;
     top: calc(50% - 4rem);
+  }
+  .email-area {
+    width: 100%;
+  }
+  .email-area h4 {
+    font-size: 16px;
+  }
+  .email-area i {
+    font-size: 30px;
   }
 }
