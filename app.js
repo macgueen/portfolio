@@ -30,7 +30,7 @@ menuToggler.addEventListener('click', function(){
 
 })
 window.addEventListener('load', function(){
-    loading.parentElement.removeChild(loading)
+   loading.parentElement.removeChild(loading)
 })
 
 
